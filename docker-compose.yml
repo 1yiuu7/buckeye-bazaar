@@ -1,0 +1,6 @@
+services:
+  buckeye-shop:
+    build: .
+    ports:
+      - "8081:80"
+    container_name: buckeye-bazaar-container
